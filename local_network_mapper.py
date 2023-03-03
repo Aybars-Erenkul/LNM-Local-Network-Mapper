@@ -67,8 +67,4 @@ for i in range(len(got_data)):
 #net.add_edges([(gw,got_data['IP'][1])])
 
 
-#net.add_nodes([3, 4, 5, 6], 
-#              label=['Michael', 'Ben', 'Oliver', 'Olivia'],
-#              color=['#3da831', '#9a31a8', '#3155a8', '#eb4034'])
-
 net.show('basic.html', notebook=False)
